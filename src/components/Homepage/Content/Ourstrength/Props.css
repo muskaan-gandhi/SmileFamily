@@ -1,0 +1,65 @@
+.cards {
+  background-color: yellow;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  height: 200px;
+  width: 200px;
+  padding: 10px;
+  transition: 0.2s;
+}
+
+.cards:hover {
+  height: 300px;
+  width: 300px;
+  background-color: #804000;
+  color: black;
+}
+
+.our-strength {
+  display: flex;
+  flex-direction: row;
+  width: 980px;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+.card-container {
+  margin-left: 40px;
+}
+
+.hidden-text {
+  font-size: 0px;
+  transition: 0.5s;
+}
+
+.cards:hover .hidden-text {
+  font-size: 16px;
+}
+
+.counter {
+  font-size: 2.4vw;
+}
+
+@media screen and (max-width: 1100px) {
+  .our-strength {
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    flex-wrap: wrap;
+  }
+
+  .cards {
+    background-color: yellow;
+    height: 185px;
+    width: 185px;
+  }
+
+  .cards:hover {
+    height: 215px;
+    width: 215px;
+  }
+
+  .counter {
+    font-size: xx-large;
+  }
+}

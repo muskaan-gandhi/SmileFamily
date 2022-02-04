@@ -1,0 +1,19 @@
+.slide-container {
+  width: 100%;
+}
+
+.lazy {
+  width: 100%;
+  height: 60%;
+  padding-left: 300px;
+  padding-right: 300px;
+  background-color: black;
+}
+
+@media screen and (max-width: 1200px) {
+  .lazy {
+    width: 100%;
+    height: 60%;
+    padding: 0px;
+  }
+}
